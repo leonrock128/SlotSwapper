@@ -5,7 +5,7 @@ import axios from "axios";
 export const AppContext = createContext();
 
 export default function AppContextProvider({ children }) {
-  const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://slotswapper-backend-kdov.onrender.com";
 
   const [token, setToken] = useState(localStorage.getItem("token") || "");
   const [user, setUser] = useState(() => {
