@@ -1,0 +1,22 @@
+# === Node ===
+node_modules/
+
+# === Build ===
+dist/
+vite.config.ts.timestamp*
+.vite/
+.cache/
+
+# === Env ===
+.env
+.env.local
+.env.production
+.env.development
+
+# === Logs ===
+*.log
+
+# === Misc ===
+.DS_Store
+.vscode/
+.idea/

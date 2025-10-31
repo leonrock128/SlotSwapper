@@ -1,0 +1,29 @@
+# === Node ===
+node_modules/
+
+# === Env ===
+.env
+.env.local
+.env.production
+.env.development
+
+# === Logs ===
+*.log
+logs/
+npm-debug.log*
+
+# === Build Outputs (if using TypeScript or Babel) ===
+dist/
+build/
+coverage/
+
+# === IDE / OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.tmp
+*.bak
+*.tsbuildinfo
